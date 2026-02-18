@@ -1,18 +1,32 @@
 {
-  "schemaVersion": 1,
-  "version": "2026-02-18",
-  "tariffs": {
+  "distributors": {
     "cre": {
       "Domiciliaria GD T3 M 17": {
-        "type": "tou_block_energy",
         "fixedChargeBs": 38.487,
         "blocks": [
-          {"startKwhExclusive": 0, "endKwhInclusive": 20, "rates": {"alto": 0.050, "medio": 0.016, "bajo": 0.015}},
-          {"startKwhExclusive": 20, "endKwhInclusive": 120, "rates": {"alto": 0.636, "medio": 0.294, "bajo": 0.279}},
-          {"startKwhExclusive": 120, "endKwhInclusive": 300, "rates": {"alto": 0.681, "medio": 0.312, "bajo": 0.292}},
-          {"startKwhExclusive": 300, "endKwhInclusive": 500, "rates": {"alto": 0.735, "medio": 0.340, "bajo": 0.319}},
-          {"startKwhExclusive": 500, "endKwhInclusive": 1000, "rates": {"alto": 0.738, "medio": 0.341, "bajo": 0.320}},
-          {"startKwhExclusive": 1000, "endKwhInclusive": null, "rates": {"alto": 0.920, "medio": 0.425, "bajo": 0.399}}
+          { "tou":"alto",  "startKwhExclusive": 0,   "endKwhInclusive": 20,   "rateBsPerKwh": 0.050 },
+          { "tou":"medio", "startKwhExclusive": 0,   "endKwhInclusive": 20,   "rateBsPerKwh": 0.016 },
+          { "tou":"bajo",  "startKwhExclusive": 0,   "endKwhInclusive": 20,   "rateBsPerKwh": 0.015 },
+
+          { "tou":"alto",  "startKwhExclusive": 20,  "endKwhInclusive": 120,  "rateBsPerKwh": 0.636 },
+          { "tou":"medio", "startKwhExclusive": 20,  "endKwhInclusive": 120,  "rateBsPerKwh": 0.294 },
+          { "tou":"bajo",  "startKwhExclusive": 20,  "endKwhInclusive": 120,  "rateBsPerKwh": 0.279 },
+
+          { "tou":"alto",  "startKwhExclusive": 120, "endKwhInclusive": 300,  "rateBsPerKwh": 0.681 },
+          { "tou":"medio", "startKwhExclusive": 120, "endKwhInclusive": 300,  "rateBsPerKwh": 0.312 },
+          { "tou":"bajo",  "startKwhExclusive": 120, "endKwhInclusive": 300,  "rateBsPerKwh": 0.292 },
+
+          { "tou":"alto",  "startKwhExclusive": 300, "endKwhInclusive": 500,  "rateBsPerKwh": 0.735 },
+          { "tou":"medio", "startKwhExclusive": 300, "endKwhInclusive": 500,  "rateBsPerKwh": 0.340 },
+          { "tou":"bajo",  "startKwhExclusive": 300, "endKwhInclusive": 500,  "rateBsPerKwh": 0.319 },
+
+          { "tou":"alto",  "startKwhExclusive": 500, "endKwhInclusive": 1000, "rateBsPerKwh": 0.738 },
+          { "tou":"medio", "startKwhExclusive": 500, "endKwhInclusive": 1000, "rateBsPerKwh": 0.341 },
+          { "tou":"bajo",  "startKwhExclusive": 500, "endKwhInclusive": 1000, "rateBsPerKwh": 0.320 },
+
+          { "tou":"alto",  "startKwhExclusive": 1000, "endKwhInclusive": null, "rateBsPerKwh": 0.920 },
+          { "tou":"medio", "startKwhExclusive": 1000, "endKwhInclusive": null, "rateBsPerKwh": 0.425 },
+          { "tou":"bajo",  "startKwhExclusive": 1000, "endKwhInclusive": null, "rateBsPerKwh": 0.399 }
         ]
       }
     }
