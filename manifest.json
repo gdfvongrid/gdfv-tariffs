@@ -1,5 +1,4 @@
 {
-  "activeVersion": "2026-02-18",
-  "tariffUrl": "https://raw.githubusercontent.com/gdfvongrid/gdfv-tariffs/refs/heads/main/tariffs_2026-02-18.json"
+  "latestVersion": "2026-02-18",
+  "latestUrl": "https://raw.githubusercontent.com/gdfvongrid/gdfv-tariffs/main/tariffs_2026-02-18.json"
 }
-
